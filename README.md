@@ -1,5 +1,3 @@
-BalanceTrap
-
 Balance Trap — Drosera Trap SERGEANT
 
 ---
