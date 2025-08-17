@@ -59,3 +59,23 @@ contract BalanceTrap is ITrap {
     }
 }
 
+Response Contract: LogAlertReceiver.sol
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract LogAlertReceiver {
+    event Alert(string message);
+
+    function logAnomaly(string calldata message) external {
+        emit Alert(message);
+    }
+}
+
+What It Solves
+
+Detects suspicious ETH flows from monitored address,
+
+Provides an automated alerting mechanism,
+
+Can integrate with automation logic (e.g., freezing funds, emergency DAO alerts).
