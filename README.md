@@ -58,6 +58,3 @@ contract BalanceTrap is ITrap {
         return (false, "");
     }
 }
-
-
-Response Contract: LogAlertReceiver.sol
